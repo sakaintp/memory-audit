@@ -1,0 +1,51 @@
+{
+  "domain": "values",
+  "facts": [
+    {
+      "id": "val-001",
+      "key": "values.craft",
+      "statement": "更看重把东西真正做完，而不是把想法讲得漂亮。",
+      "anchors": ["「我做东西是为了用起来，不是为了发朋友圈」"],
+      "confidence": 0.9,
+      "sensitivity": "personal",
+      "status": "active",
+      "review_after": "2027-06",
+      "evidence": [
+        {"type": "self_report", "source": "session:sample", "quote": "做出来能用最要紧", "at": "2026-11-01"}
+      ],
+      "supersedes": null,
+      "notes": "与速度偏好并存",
+      "l0": true
+    },
+    {
+      "id": "val-002",
+      "key": "values.craft",
+      "statement": "只要想法足够新颖，实现细节可以之后再说。",
+      "anchors": [],
+      "confidence": 0.9,
+      "sensitivity": "personal",
+      "status": "active",
+      "review_after": "2025-12",
+      "evidence": [],
+      "supersedes": null,
+      "notes": "",
+      "l0": true
+    },
+    {
+      "id": "val-003",
+      "key": "values.boundaries",
+      "statement": "不接受需要在周末随叫随到的工作安排。",
+      "anchors": ["「周末是我的」"],
+      "confidence": 0.95,
+      "sensitivity": "private",
+      "status": "active",
+      "review_after": "2027-01",
+      "evidence": [
+        {"type": "self_report", "source": "session:sample", "quote": "周末别找我", "at": "2026-10-20"}
+      ],
+      "supersedes": null,
+      "notes": "",
+      "l0": true
+    }
+  ]
+}

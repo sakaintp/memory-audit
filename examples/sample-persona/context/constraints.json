@@ -1,0 +1,35 @@
+{
+  "domain": "constraints",
+  "facts": [
+    {
+      "id": "con-001",
+      "key": "constraints.time",
+      "statement": "工作日晚上和周末才有整块时间。",
+      "anchors": ["「平时上班，只能晚上和周末搞」"],
+      "confidence": 0.95,
+      "sensitivity": "personal",
+      "status": "active",
+      "review_after": "2027-12",
+      "evidence": [
+        {"type": "self_report", "source": "session:sample", "quote": "晚上和周末", "at": "2026-11-02"}
+      ],
+      "supersedes": null,
+      "notes": "影响排期估算",
+      "l0": true
+    },
+    {
+      "id": "con-002",
+      "key": "constraints.budget",
+      "statement": "每月服务器预算是 200 元。",
+      "anchors": [],
+      "confidence": 0.7,
+      "sensitivity": "secret",
+      "status": "active",
+      "review_after": "2026-09",
+      "evidence": [],
+      "supersedes": null,
+      "notes": "",
+      "l0": true
+    }
+  ]
+}

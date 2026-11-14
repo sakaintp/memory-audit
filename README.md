@@ -4,6 +4,16 @@
 
 ## 用法
 
+先在内置示例上试跑（示例是虚构数据，不涉及任何人）：
+
+```bash
+git clone https://github.com/sakaintp/memory-audit.git
+cd memory-audit
+python3 audit.py examples/sample-persona
+```
+
+再对你自己的记忆库运行：
+
 ```bash
 python3 audit.py /path/to/persona
 python3 audit.py /path/to/persona --format markdown
